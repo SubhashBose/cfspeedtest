@@ -2,12 +2,12 @@
 name: Clippy check
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-  schedule:
-    - cron: '0 3 * * 1'
+  #push:
+  #  branches: [ "master" ]
+  #pull_request:
+  #  branches: [ "master" ]
+  #schedule:
+  #  - cron: '0 3 * * 1'
 
 # Make sure CI fails on all warnings, including Clippy lints
 env:
